@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/BiP00/desafio_mercadopublico#readme",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
   }
 }
