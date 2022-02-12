@@ -1,0 +1,22 @@
+{
+  "name": "desafio_mercadopublico",
+  "version": "1.0.0",
+  "description": "Proyecto Consulta API Mercado Publico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BiP00/desafio_mercadopublico.git"
+  },
+  "author": "Benjamin Peña",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BiP00/desafio_mercadopublico/issues"
+  },
+  "homepage": "https://github.com/BiP00/desafio_mercadopublico#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
