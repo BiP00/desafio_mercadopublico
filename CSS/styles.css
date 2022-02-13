@@ -1,18 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    box-sizing: border-box;
+}
+
 body > div {
     display: flex;
-    align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    align-items: center;
+    height: 100vh;
 }
 
 #emailHelp {
-    color: antiquewhite;
+    color: rgb(153, 96, 22);
 }
 
 .shadow{
-    -moz-box-shadow: 3px 3px 4px #ccc;
-    -webkit-box-shadow: 3px 3px 4px #ccc;
-    box-shadow: 3px 3px 4px #ccc; /* For IE 8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#cccccc')"; /* For IE 5.5 - 7 */
-    filter: progid:DXImageTransform.Microsoft.Shadow(Strength = 4, Direction = 135, Color = '#cccccc');
+    box-shadow: 3px 3px 8px #ccc;
+}
+
+form {
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0px 0px 30px 20px rgba(92, 99, 105, 1);
+}
+
+.submitBtn {
+    display: inline;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: rgb(0, 45, 128);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+  
+  .submitBtn:hover {
+    background-color: #67bac5;
+    transform: translateY(-2px);
 }
