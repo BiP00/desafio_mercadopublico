@@ -25,6 +25,7 @@
     <!-- Bootstrap core CSS -->
     <link href="/desafio_mercadopublico/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script type="text/javascript" src="/desafio_mercadopublico/JavaScript/dinamica.js"></script>
 
     <meta name="theme-color" content="#7952b3">
 
@@ -106,21 +107,6 @@
             </footer>
         </div>
     </main>
-
-    <script>
-        $(document).ready(function () {
-            var ciudad = "";
-            $.get("https://ipinfo.io", function (response) {
-                ciudad = response.city;
-                $.get("https://api.openweathermap.org/data/2.5/weather?q=" + ciudad + "&&units=metric&appid=4431c44d3c17791391e3edc81337bd4d&lang=es", function (data) {
-                    $(".filo").html(" La T° en su área es de: " + data.main.temp + "°C");
-                    console.log(data.main.temp);
-                    $("footer").first().addClass("pt-4 mt-4 text-light border-top");
-                })
-            }, "jsonp");
-
-        });
-    </script>
 
 </body>
 
